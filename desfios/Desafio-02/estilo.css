@@ -1,0 +1,115 @@
+
+@import url('https://fonts.cdnfonts.com/css/fiker');
+@font-face {
+    font-family: 'fiker';
+    src: url('https://fonts.cdnfonts.com/css/fiker') format(opentype);
+    font-weight:normal;
+    font-style: normal;
+}
+
+:root{
+    --cor1:#4C6B2C;
+    --cor2:#79AB46;
+    --cor3:#A6EB60;
+    --cor4:#aef765be;
+
+}
+
+
+body{
+   
+    background-color: white;
+    
+}
+.cabeçalho{
+    background-color: var(--cor1);
+    justify-content: center;
+    padding: 1px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'fiker';
+    font-weight:normal;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-image: linear-gradient(145deg , #aef765be, white);
+    border-radius: 0.3em;
+    margin: 1px;
+    padding: 2px;
+}
+.cabeçalho > h1{
+    background: linear-gradient(90deg,#aef765be, white );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cabeçalho > p {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.801);
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: baseline;
+    gap: 0.8em;
+    color: #baec87;
+    cursor: pointer;
+}
+
+ul > li:hover{
+    color: white;
+    background: #79AB46;
+    padding: 5px 0px 0px 0px;
+    border-radius: 10%;
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    list-style: ;
+    
+}
+.esquerda{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+a{
+    color: green;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border: 1px double white;
+
+}
+section{
+    margin: 15px;
+    padding: 10px;
+    background-color: var(--cor2);
+    border-radius: 1em;
+    box-shadow: 5px 5px 2px var(--cor2);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 0.9em;
+    padding: 15px;
+    margin-top: 10px;
+}

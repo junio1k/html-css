@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightblue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+        }
+        header{
+            background:white  ;
+            padding: 10px;
+            margin: 10px;
+        }
+        img{
+            width: 1000px;
+        }
+        
+        
+        ul{
+            list-style: none;
+        }
+        nav > ul{
+            display: flex;
+            justify-content: right;
+            gap: 0.6em;
+            background-color: rgba(0, 0, 0, 0.459);
+            box-shadow: 6px 6px 4px 0px black;
+            
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(177, 171, 171);
+        }
+        nav > input {
+            display: flex;
+            margin: auto;
+            width: 300px;
+            padding: 3px;
+            border: 1px solid black;
+            border-radius: 4px 4px 4px 4px;
+            outline: none;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            
+            
+        }
+        .noticias{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        section > article{
+            background-color: rgba(183, 250, 83, 0.842);
+            
+        }
+        article > aside{
+            background-color: rgb(199, 189, 189);
+            text-align: center;
+            font-size: bold;
+        }
+        footer{
+            background-color: black;
+            margin: 0;
+            text-align: center;
+            padding: 1px;
+            color: white;
+            font-weight: bold;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <input class="pequisa" type="text" placeholder="digite o que precisar">
+            <ul>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="conteudo">
+            <p>Esportes</p>
+        </section>
+        <section class="noticias">
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus facilis, alias quae commodi voluptatem ad quas maxime molestias amet, temporibus est iste accusamus omnis quisquam mollitia veritatis non vel totam.</p>
+                    <aside>
+                        <p>Escrito por Celso junio</p>
+                    </aside>
+                </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por CJ
+    </footer>
+</body>
+</html>

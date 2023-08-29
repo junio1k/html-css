@@ -1,0 +1,21 @@
+div#celso {
+    text-align: center;
+    text-align: justify;
+    background-color: rgba(161, 129, 184, 0.425);
+    border-radius: 15px 15px 15px 15px;
+    color: white;
+
+}
+
+
+a{
+    color:black;
+}
+
+ul{
+    color: black;
+    
+}
+body{
+    background-color: rgba(165, 22, 22, 0);
+}

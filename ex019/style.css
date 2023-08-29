@@ -1,0 +1,41 @@
+
+/*  seletor id de HTML em CSS = #
+    seleter class de HTML em CSS = .
+*/ 
+
+body{
+    background: linear-gradient(45deg , rgba(88, 88, 138, 0.863),rgb(143, 127, 127));
+}
+
+h1#principal{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 100;
+    color: black;
+    text-align: center;
+}
+#principal{
+    background:linear-gradient(90deg, rgb(50, 10, 88), rgba(175, 169, 169, 0.514));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+h1{
+   color: white;
+}
+
+h2{
+    color: black;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.basico{
+    color: rgb(6, 66, 156);
+}
+
+.intermediario{
+    color: rgb(233, 233, 11);
+}
+
+.avancado{
+    color: rgb(228, 28, 28);
+}

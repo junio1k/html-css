@@ -1,0 +1,33 @@
+
+*{
+    width: 100%;
+    padding: 0%;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.712);
+    margin: auto;
+}
+
+
+img{
+    width: 300px;
+    background: transparent;
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+    margin-top: 12%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-60px) ;
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

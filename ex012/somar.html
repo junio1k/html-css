@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operação de soma</title>
+</head>
+<body>
+    <main>
+        <h1>Operação de soma</h1>
+        <div>
+            <input type="number" name="num1" id="num1"> +
+            <input type ="number" name="num2" id="num2"></input>
+            <input type="button" value="somar" onclick="somar()">
+        </div>
+        <div id="res">Resultado</div>
+    </main>
+    <script>
+        function somar (){
+            let num1 = Number(document.getElementById('num1').value);
+        let num2 = Number(document.getElementById('num2').value);
+        let valores = []
+        let res = document.getElementById('res')
+        let soma = num1 + num2
+        res.innerHTML += `<p>${num1} + ${num2} = ${soma}</p>`
+        
+        }
+    </script>
+</body>
+</html>

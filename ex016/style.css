@@ -1,0 +1,38 @@
+
+
+:root {
+    --container-color: #1B1925;
+    --btn-color:#86605C ;
+}
+body{
+    width:10 ;
+    padding: 0;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 100%;
+    padding: 100%;
+    height: 250px;
+    background-color: var(--container-color);
+    border-radius: 2em;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    align-items: 75px;
+    cursor: pointer;
+    background-color: #86605C;
+    outline: none !important;
+    border: none;
+    border-radius: 1em;
+
+}
